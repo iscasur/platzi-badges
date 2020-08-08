@@ -38,7 +38,7 @@ class BadgesList extends React.Component {
         </div>
       );
     }
-    
+
     return (
       <div className="BadgesList">
         <ul className="list-unstyled">
