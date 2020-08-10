@@ -44,7 +44,7 @@ const api = {
       });
     },
     // Lo hubiera llamado 'delete', pero esta es una keyword reservada de JS
-    remore(bagdeId) {
+    remove(bagdeId) {
       return callApi(`/badges/${bagdeId}`, {
         method: "DELETE",
       });
